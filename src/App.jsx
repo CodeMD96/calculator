@@ -27,10 +27,12 @@ function App() {
 
   return(
     <div className="App">
-      <h1>Calc</h1>
-      <div className="calcWrapper">
-        <p>{sum}</p>
-       <CalcButtons buttons={calcButtons} buttonHandler={buttonHandler} />
+      <div className="calculator">
+        <h1>Calc</h1>
+        <p className="display" >{sum}</p>
+        <div className="calcWrapper">
+          <CalcButtons buttons={calcButtons} buttonHandler={buttonHandler} />
+        </div>
       </div>
     </div>
 );

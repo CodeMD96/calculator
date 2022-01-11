@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.calculator {
+  align-content: center;
+}
+
+.display {
+  text-align: center;
+  font-size: 100px;
+}
+
+.calcWrapper {
+  align-self: center;
+  align-content: center;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50vw;
+  margin: 0vw 25vw;
+  border:solid #282c34 2px;
+}
+
+.calcButton {
+  flex: 1 0 40%;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: blanchedalmond;
+  transition: 1s;
+}
+
+.calcButton:hover {
+  background-color: aqua;
+}
